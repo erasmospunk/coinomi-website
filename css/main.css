@@ -2,6 +2,12 @@
   padding: 80px 15px;
   text-align: center;
 }
+@media (max-width: 400px) {
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+}
 .features {
   padding: 60px 0;
   text-align: center;
