@@ -2,7 +2,7 @@
 title: Coinomi
 email: 
 description: "Next generation cryptocurrency bank"
-baseurl: ""
+baseurl: "http://www.coinomi.com"
 url: "http://www.coinomi.com"
 
 # Build settings
