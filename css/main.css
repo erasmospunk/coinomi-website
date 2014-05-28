@@ -1,13 +1,16 @@
 .starter-template {
-  padding: 140px 15px;
+  padding: 80px 15px;
   text-align: center;
 }
 .features {
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 }
 .feature {
   padding: 10px;
+}
+.feature .glyphicon {
+  font-size: 50px;
 }
 .leave-space-down {
   padding: 0 0 40px 0;
