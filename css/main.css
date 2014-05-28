@@ -1,5 +1,5 @@
-.starter-template {
-  padding: 80px 0;
+.header {
+  padding: 50px 0;
   text-align: center;
 }
 @media (max-width: 400px) {
@@ -20,6 +20,9 @@
 }
 .leave-space-down {
   padding: 0 0 20px 0;
+}
+.call-to-action {
+  text-align: center;
 }
 /*
  * Footer
