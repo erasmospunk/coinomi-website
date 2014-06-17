@@ -3,7 +3,7 @@ title: Coinomi
 email: 
 description: "Next generation cryptocurrency bank"
 baseurl: ""
-url: "http://www.coinomi.com"
+url: "http://coinomi.com"
 
 # Build settings
 markdown: kramdown
