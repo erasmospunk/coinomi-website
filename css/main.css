@@ -30,6 +30,11 @@ body {
 .call-to-action {
   text-align: center;
 }
+.github {
+  width: auto;
+  display: block;
+  text-align: center;
+}
 .donations li img {
   margin: 0 10px;
   height: 1em;
