@@ -1,3 +1,6 @@
+
+@import url(fade-animation.less);
+
 body {
   color: #3e4b52;
 }
@@ -5,14 +8,16 @@ body {
 .header {
   padding: 50px 0;
   text-align: center;
+  .fade-in(500ms);
 }
 
-.header h1 {
-  font-size: 4em;
+.header p, .hero {
+  .fade-in(700ms);
+  .fade-in-delay(700ms);
 }
 
 @media (max-width: 400px) {
-  .logo {
+  .hero {
     width: 100%;
     height: auto;
   }

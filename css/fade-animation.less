@@ -1,0 +1,32 @@
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fade-in(@sec) {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    -o-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forward;
+
+    -webkit-animation-duration:@sec;
+    -moz-animation-duration:@sec;
+    -o-animation-duration:@sec;
+    animation-duration:@sec;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fade-in-delay(@sec) {
+  -webkit-animation-delay:@sec;
+  -moz-animation-delay:@sec;
+  -o-animation-delay:@sec;
+  animation-delay:@sec;
+}
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
