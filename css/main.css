@@ -1,15 +1,83 @@
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 body {
   color: #3e4b52;
 }
 .header {
   padding: 50px 0;
   text-align: center;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forward;
+  -webkit-animation-duration: 500ms;
+  -moz-animation-duration: 500ms;
+  -o-animation-duration: 500ms;
+  animation-duration: 500ms;
 }
-.header h1 {
-  font-size: 4em;
+.header p,
+.hero {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forward;
+  -webkit-animation-duration: 700ms;
+  -moz-animation-duration: 700ms;
+  -o-animation-duration: 700ms;
+  animation-duration: 700ms;
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
 }
 @media (max-width: 400px) {
-  .logo {
+  .hero {
     width: 100%;
     height: auto;
   }
