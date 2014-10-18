@@ -1,81 +1,16 @@
-/* Animation Times - Time for image to fade in
----------------------------------------------------- */
-/* Animation Delay - Time for image to be delayed
----------------------------------------------------- */
-/* Key Frames
----------------------------------------------------- */
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* @import url(fade-animation.less); */
 body {
   color: #3e4b52;
 }
 .header {
   padding: 50px 0;
   text-align: center;
-  opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  -o-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forward;
-  -webkit-animation-duration: 700ms;
-  -moz-animation-duration: 700ms;
-  -o-animation-duration: 700ms;
-  animation-duration: 700ms;
+  /*.fade-in(700ms);*/
 }
-.header p,
-.hero {
-  opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  -o-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forward;
-  -webkit-animation-duration: 700ms;
-  -moz-animation-duration: 700ms;
-  -o-animation-duration: 700ms;
-  animation-duration: 700ms;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  animation-delay: 1s;
-}
+/*.header p, .hero {
+  .fade-in(700ms);
+  .fade-in-delay(1s);
+}*/
 @media (max-width: 400px) {
   .hero {
     width: 100%;
